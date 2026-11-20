@@ -1,0 +1,8 @@
+# Local environment (training + MLflow UI). Use Python 3.12.
+# scikit-learn / joblib versions MUST match requirements-serve.txt,
+# otherwise model.pkl may fail to load inside the container.
+scikit-learn==1.5.2
+joblib==1.4.2
+mlflow==2.17.2
+fastapi==0.115.4
+uvicorn==0.32.0
